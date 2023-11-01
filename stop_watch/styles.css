@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.watch_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+.watch_container h1 {
+  margin-bottom: 20px;
+  border-bottom: 3px solid black;
+  border-bottom-right-radius: 20%;
+}
+.watch_container .watch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  font-size: 60px;
+}
+.watch_container .watch > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.watch_container .watch > div .desc {
+  font-size: 20px;
+}
+.watch_container .btn-container {
+  margin: 10px 0 0 0;
+  display: flex;
+  padding: 10px;
+}
+.watch_container .btn-container .btn {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  margin: 20px 25px 0 25px;
+  font-weight: 550;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  padding: 8px 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 100px;
+}
+.watch_container .btn-container .btn:hover {
+  color: white;
+  background-color: black;
+}
